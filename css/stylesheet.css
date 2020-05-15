@@ -1,0 +1,980 @@
+.logo
+{
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.sMedia
+{
+    float: right;
+    
+}
+
+.fab
+{
+    margin-top: 10px;
+    color: #12A1DA;
+    font-size: 45px;
+    padding: 3px;
+}
+
+.slider
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../Images/bg8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slider .row
+{
+    text-align: center;
+}
+
+.navigation
+{
+    margin-left: 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.navigation a
+{
+    color: white;
+    font-weight: 400;
+    padding: 3px 10px;
+    display: inline-block;
+}
+
+.navigation a:hover
+{
+    text-decoration: none;
+    color: white;
+    background-color: #12A1DA;
+    border-radius: 5px;
+}
+
+label
+{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    display: none;    
+    width: 26px;
+    float: right;
+}
+
+#check
+{
+    display: none;
+}
+
+@media (max-width: 767px)
+{
+    .navigation a 
+    {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 576px) and (min-width: 501px)
+{
+    .col-sm-6.logo1 
+    {
+        width: 50%;
+    }
+
+    .col-sm-6.sMedia1 
+    {
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px)
+{
+    label
+    {
+        cursor: pointer;
+        display: block;
+        color: white;
+        font-size: 30px;
+        margin-bottom: 70px;
+    }
+
+    .navigation
+    {
+        
+        text-align: center;
+        width: 100%;
+        margin-top: -40px;   
+    }
+
+    .navigation a 
+    {
+        display: block;
+        text-align: center;
+    }
+
+    #check:checked + .navigation
+    {
+        display: none;
+    }
+
+    .logo1
+    {
+        width: 50%;
+    }
+
+    .logo
+    {
+        width: 120px;
+        margin: 10px;
+    }
+
+    .sMedia1
+    {
+        width: 50%;
+    }
+
+    .sMedia
+    {
+        margin-top: 3px;
+    }
+
+    .fab
+    {
+        font-size: 30px;
+    }
+}
+
+.slider h1
+{
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+    font-weight: 400;
+}
+
+.slider h5
+{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+.slider hr
+{
+    border-color: lightblue;
+    margin-left: 480px;
+    margin-right: 480px;
+    margin-top: -3px;
+    border-width: 1px;
+    
+}
+
+.slider p
+{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    margin: 0px;
+    line-height: 20px;
+}
+
+.slider .button
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.slider .button .btn
+{
+    border-color: #12A1DA;
+    border-width: 2px;
+    color: white;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+}
+
+.slider .button .btn:hover
+{
+    background-color: #12A1DA;
+    font-weight: bold;
+}
+
+.SERVICES h1
+{
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.SERVICES .test_icon
+{
+    position:relative;
+	text-align: center;
+	color:#12A1DA;
+}
+
+.SERVICES .test_icon .fa-fire
+{
+    background-color: transparent;
+}
+
+.SERVICES .test_icon::after
+{
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: #12A1DA;
+    display: inline-block;
+    margin: 0 0 5px 0px;
+}
+
+.SERVICES .test_icon::before
+{
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: #12A1DA;
+    display: inline-block;
+    margin: 0 0 5px 0px;
+}
+
+.SERVICES .service1 .fas
+{
+    margin-top: 70px;
+    color: #12A1DA;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+}
+
+.SERVICES .service1 h5
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.SERVICES .service1 p
+{
+    text-align: center;
+    font-weight: 500;
+    color: gray;
+    font-size: 15px;
+}
+
+.SERVICES .button
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.SERVICES .button .btn
+{
+    color: white;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    background-color: #12A1DA;
+}
+
+.SERVICES .button .btn:hover
+{
+    background-color: #12A1DA;
+    font-weight: bold;
+}
+
+.SERVICES .service2 .far
+{
+    margin-top: 70px;
+    color: #12A1DA;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+}
+
+.SERVICES .service2 h5
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.SERVICES .service2 p
+{
+    text-align: center;
+    font-weight: 500;
+    color: gray;
+    font-size: 15px;
+}
+
+.SERVICES .service3 .fas
+{
+    margin-top: 70px;
+    color: #12A1DA;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+}
+
+.SERVICES .service3 h5
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.SERVICES .service3 p
+{
+    text-align: center;
+    font-weight: 500;
+    color: gray;
+    font-size: 15px;
+}
+
+.TESTINOMIAL
+{
+    background-color: #D7D7D7;
+}
+
+.TESTINOMIAL h1
+{
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.TESTINOMIAL .test_icon
+{
+    position:relative;
+	text-align: center;
+	color:#12A1DA;
+}
+
+
+
+.TESTINOMIAL .test_icon::after
+{
+    content: "";
+    width: 16%;
+    height: 2px;
+    background-color: #12A1DA;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+
+.fa-fire{
+	position: relative;
+    background-color: #d7d7d7;
+    padding: 3px 10px;
+    z-index: 1;
+}
+
+.TESTINOMIAL .test1
+{
+    position: relative;
+}
+
+.TESTINOMIAL .test1 .pic1
+{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 120px;
+    border: 4px solid white;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.test1 .col-sm-2::after
+{
+    content: "";
+    width: 3px;
+    height: 40%;
+    background-color: #fff;
+    position: absolute;
+    top: 66%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.test2 .col-sm-2::after
+{
+    content: "";
+    width: 3px;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 73%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.TESTINOMIAL .test1 h5
+{
+    margin-top: 60px;
+}
+
+.TESTINOMIAL .test1 p
+{
+    width: 300px;
+    font-weight: 500;
+    color: grey;
+    margin-top: 10px;
+}
+
+.TESTINOMIAL .test2 .pic2
+{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 120px;
+    border: 4px solid white;
+    border-radius: 100px;
+    margin-bottom: 40px;
+}
+
+.TESTINOMIAL .test2 h5
+{
+    margin-top: 10px;
+    text-align: right;
+    margin-right: 130px;
+}
+
+.TESTINOMIAL .test2 p
+{
+    width: 300px;
+    font-weight: 500;
+    color: grey;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.TESTINOMIAL .test3 .pic3
+{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 120px;
+    border: 4px solid white;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.TESTINOMIAL .test3 h5
+{
+    margin-top: 60px;
+}
+
+.TESTINOMIAL .test3 p
+{
+    width: 300px;
+    font-weight: 500;
+    color: grey;
+    margin-top: 10px;
+}
+
+@media (max-width: 991px)
+{
+    .TESTINOMIAL .test1 .pic1 
+    {
+        margin-left: -15px;
+    }
+
+    .TESTINOMIAL .test1 h5 
+    {
+        margin-left: 30px;
+    }
+
+    .TESTINOMIAL .test1 p 
+    {
+        margin-left: 30px;
+        width: 260px;
+    }
+
+    .test1 .col-sm-2::after 
+    {
+        top: 67%;
+        left: 5px;
+    }
+
+    .TESTINOMIAL .test2 .pic2
+    {
+        margin-left: -13px;
+    }
+
+    .TESTINOMIAL .test2 h5 
+    {
+        margin-top: 10px;
+        text-align: left;
+        margin-right: 0;
+    }
+
+    .TESTINOMIAL .test2 p 
+    {
+        width: 268px;
+        margin-right: 0;
+    }
+
+    .test1 .col-sm-2::after 
+    {
+        top: 67%;
+        left: 5px;
+    }
+
+    .TESTINOMIAL .test3 .pic3
+    {
+        margin-left: -13px;
+    }
+
+    .TESTINOMIAL .test3 h5 
+    {
+        margin-left: 30px;
+    }
+
+    .TESTINOMIAL .test3 p 
+    {
+        margin-left: 30px;
+        width: 260px;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .TESTINOMIAL .test1 .pic1 
+    {
+        margin-left: -27px;
+    }
+
+    .TESTINOMIAL .test1 h5 
+    {
+        margin-left: 30px;
+        font-size: 1em;
+        margin-top: 60px;
+    }
+
+    .TESTINOMIAL .test1 p 
+    {
+        margin-left: 30px;
+        width: 200px;
+        font-size: 0.8em;
+    }
+
+    .TESTINOMIAL .test2 .pic2 
+    {
+        margin-left: -28px;
+    }
+
+    .TESTINOMIAL .test2 h5 
+    {
+        font-size: 1em;
+    }
+
+    .TESTINOMIAL .test2 p 
+    {
+        width: 195px;
+        font-size: 0.8em;
+    }
+
+    .TESTINOMIAL .test3 .pic3
+    {
+        margin-left: -28px;
+    }
+
+    .TESTINOMIAL .test3 h5 
+    {
+        font-size: 1em;
+    }
+
+    .TESTINOMIAL .test3 p 
+    {
+        width: 165px;
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 575px)
+{
+    .TESTINOMIAL .test1 .col-sm-2
+    {
+        width: 35%;
+    }
+
+    .TESTINOMIAL .test1 .col-sm-2::after
+    {
+        display: none;
+    }
+
+    .TESTINOMIAL .test1 .pic1 
+    {
+        margin: 0;
+        margin-top: 25px;
+    }
+
+    .TESTINOMIAL .test1 .col-sm-5:last-child
+    {
+        width: 65%;
+    }
+
+    .TESTINOMIAL .test1 h5 
+    {
+        margin-left: 0px;
+        margin-top: 35px;
+    }
+
+    .TESTINOMIAL .test1 p 
+    {
+        margin-left: 0px;
+    }
+
+    .TESTINOMIAL .test2 .col-sm-2
+    {
+        width: 35%;
+        text-align: right;
+    }
+
+    .TESTINOMIAL .test2 .col-sm-2::after
+    {
+        display: none;
+    }
+
+    .TESTINOMIAL .test2 .col-sm-5:first-child
+    {
+        width: 65%;
+    }
+
+    .TESTINOMIAL .test2 h5 
+    {
+        float: right;
+        margin-right: 28px;
+        margin-top: 45px;
+    }
+
+    .TESTINOMIAL .test2 p 
+    {
+        margin-right: -10px;
+    }
+
+    .TESTINOMIAL .test2 .pic2 
+    {
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .TESTINOMIAL .test3 .col-sm-2
+    {
+        width: 35%;
+    }
+
+    .TESTINOMIAL .test3 .col-sm-2::after
+    {
+        display: none;
+    }
+
+    .TESTINOMIAL .test3 .col-sm-5:last-child
+    {
+        width: 65%;
+    }
+
+    .TESTINOMIAL .test3 h5 
+    {
+        margin-left: 0;
+    }
+
+    .TESTINOMIAL .test3 p 
+    {
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+
+    .TESTINOMIAL .test3 .pic3 
+    {
+        margin: 0;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 480px)
+{
+    .TESTINOMIAL .test1 .col-sm-2 
+    {
+        width: 40%;
+    }
+
+    .TESTINOMIAL .test1 .col-sm-5:last-child 
+    {
+        width: 60%;
+    }
+
+    .TESTINOMIAL .test2 .col-sm-5:first-child 
+    {
+        width: 60%;
+    }
+
+    .TESTINOMIAL .test2 .col-sm-2 
+    {
+        width: 40%;
+    }
+
+    .TESTINOMIAL .test2 h5 
+    {
+        margin-right: 0px;
+    }
+
+    .TESTINOMIAL .test2 p 
+    {
+        margin-right: -40px;
+    }
+
+    .TESTINOMIAL .test3 h5 
+    {
+        margin-left: 15px;
+    }
+
+    .TESTINOMIAL .test3 p
+    {
+        margin-left: 15px;
+    }
+}
+
+
+.contact form .p
+{
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 100px;
+    color: gray;
+}
+
+.contact form h4
+{
+    margin: 0px;
+    margin-bottom: 70px;
+}
+
+.contact form p
+{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: gray;
+    margin: 15px 0px 5px 0px;
+}
+
+.contact form input[type="text"]
+{
+    width: 300px;
+}
+
+.contact form textarea
+{
+    width: 300px;
+    height: 130px;
+}
+
+.contact form input[type="submit"]
+{
+    color: white;
+    border-radius: 25px;
+    background-color: #12A1DA;
+    border: none;
+    padding: 13px 40px;
+    font-weight: 500;
+    margin-top: 15px;
+    
+}
+
+.contact form input[type="submit"]:hover
+{
+    background-color: #12A1DA;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact img
+{
+    float: right;
+    margin-top: 40px;
+    width: 500px;
+}
+
+@media (max-width: 991px)
+{
+    .contact img 
+    {
+        margin-top: 115px;
+        width: 380px;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .contact img 
+    {
+        display: none;
+    }
+
+    .contact form
+    {
+        margin-left: 20%;
+    }
+
+    .contact form input[type="submit"] 
+    {
+        padding: 13px 94px;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .contact form 
+    {
+        margin-left: 1%;
+    }
+}
+
+.footer
+{
+    background-color: #103154;
+    margin-top: 80px;
+}
+
+.footer h5
+{
+    color: white;
+    margin-top: 40px;
+}
+
+.footer .p
+{
+    color: white;
+    width: 340px;
+    font-size: 14px;
+}
+
+.footer input[type="text"]
+{
+    background-color: #1A3757;
+    border: none;
+    border-radius: 200px;
+    padding: 15px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+.footer input[type="text"]::placeholder
+{
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.footer input[type="submit"]
+{
+    color: white;
+    border-radius: 25px;
+    background-color: #12A1DA;
+    border: none;
+    padding: 13px 40px;
+    font-weight: 500;
+}
+
+.footer input[type="submit"]:hover
+{
+    background-color: #12A1DA;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer ul
+{
+    padding: 0;
+    margin-top: 25px;
+}
+
+.footer ul li
+{
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.footer ul li a
+{
+    color: white;
+    font-weight: 500;
+    
+}
+
+.footer hr
+{
+    border-color: gray;
+    border-width: 1px;
+}
+
+.footer .p2
+{
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 991px)
+{
+    .footer .p 
+    {
+        width: auto;
+    }
+
+    .footer input[type="text"] 
+    {
+        width: 100%;
+    }
+
+    .footer input[type="submit"] 
+    {
+        padding: 13px 20px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 575px)
+{
+    .footer 
+    {
+        text-align: center;
+    }
+
+    .footer .p 
+    {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .footer input[type="text"] 
+    {
+        width: 80%;
+    }
+
+    .footer h5 
+    {
+        color: white;
+        margin-top: 80px;
+    }
+}
